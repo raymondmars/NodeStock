@@ -1,0 +1,14 @@
+{
+  "name": "stock",
+  "version": "0.0.0",
+  "dependencies": {
+    "modernizr": "~2.6.2",
+    "jquery": "~2.0.3",
+    "socket.io-client": "git://github.com/LearnBoost/socket.io-client.git",
+    "momentjs": "git://github.com/moment/moment",
+    "underscore": "~1.6.0",
+    "mustache": "~0.8.1",
+    "lightbox2": "*"
+  },
+  "devDependencies": {}
+}

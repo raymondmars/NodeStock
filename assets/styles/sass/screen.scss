@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    SCREEN.CSS
+\*------------------------------------*/
+
+
+
+
+
+/**
+ * Setup
+ */
+@import "vars";
+@import "mixins";  // Custom mixins
+
+
+
+
+
+/**
+ * She’s all yours, cap’n... Begin importing your stuff here.
+ */
+@import "ui/scaffolding";
+@import "ui/typography";
+@import "ui/color";
+@import "ui/header";
+@import "ui/navs";
+@import "ui/forms";
+@import "ui/buttons";
+@import "ui/footer";
+@import "ui/helpers";
+
+html {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	padding: 10px;
+  font-family: 'Exo 2',Helvetica, Tahoma, Arial,"Microsoft YaHei", "微软雅黑", STXihei, "华文细黑",  SimSun, "宋体", Heiti, "黑体", sans-serif;
+  background-color: #ffffff;
+	color: black;
+}
+#box td{
+	padding: 2px 5px 2px 5px;
+}
+#loading{ 
+	color: red;
+	padding-left: 5px;
+}
+.red { color: red }
+.green { color: green }
+.grey { color: grey }
+.tl{
+	font-size: 13px;
+	color: silver;
+	margin-left: 10px;
+}
+.link{
+	font-size: 13px;
+	color: silver;
+	margin-left: 2px;
+}
+a:hover{ color: red;}
